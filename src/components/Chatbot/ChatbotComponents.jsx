@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef} from "react";
 import { getEmbeddings, cosineSimilarity } from "../../utils/aiService";
 import { SIMILARITY_THRESHOLD } from "../../utils/constants";
-import './chatbot.css';
+import "./Chatbot.css";
 import useOnlineStatus from "../../hooks/useOnlineStatus";
 import KNOWLEDGE_BASE_DATA from "../../data/knowledgeBase.json";
 
