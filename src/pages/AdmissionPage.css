@@ -50,6 +50,7 @@ h2 {
 #xyz{
    justify-content: center;
   text-align: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  background-color: aqua;
 }

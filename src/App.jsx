@@ -32,9 +32,9 @@ function App() {
         />
         <ChatbotComponent/>
       </div>
-    <Router>
-     
-      
+      <div>
+   <Router>
+  
       <main style={{ padding: '1rem' }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -47,8 +47,10 @@ function App() {
       </main>
       
     </Router>
+    </div>
     </>
   );
 }
 
 export default App;
+        

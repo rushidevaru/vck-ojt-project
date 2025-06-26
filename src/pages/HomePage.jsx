@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div id="pqr">
       <Header/>
-    <div className="home-scroll-container">
+    <div className="home-scroll-container"> 
       
     
       <div className="banner-container">

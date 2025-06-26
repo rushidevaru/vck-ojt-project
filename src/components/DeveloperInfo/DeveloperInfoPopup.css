@@ -39,7 +39,7 @@
   border: 3px solid #007BFF; /* Small border for emphasis */
 }
 .popup-title {
-  color: #333;
+  color:white;
   margin-bottom: 5px;
   font-size: 1.1em;
 }
@@ -50,7 +50,7 @@
   margin-bottom: 15px;
 }
 .unique-message {
-  color: #555;
+  color: white;
   font-size: 0.95em;
   line-height: 1.5;
   margin-bottom: 20px;
