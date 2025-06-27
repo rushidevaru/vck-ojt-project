@@ -38,6 +38,7 @@ function App() {
       <main style={{ padding: '1rem' }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/Home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/apply" element={<AdmissionPage />} />
           <Route path="/contact" element={<ContactPage />} />

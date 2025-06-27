@@ -2,6 +2,7 @@ import React ,{ useState} from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import './HomePage.css';
+import { Link } from "react-router-dom";
 
 
 const HomePage = () => {
@@ -18,7 +19,7 @@ const HomePage = () => {
         
         <p>Your journey to excellence starts here.</p>
         <div className="button-wrapper">
-        <a href="/apply" className="cta-button">Apply Now!</a>
+        <Link to="/apply" className="cta-button">Apply Now!</Link>
         </div>
       </div>
         <p><strong>Vivekanand College</strong> is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in 1980, we have proudly served generations of students, empowering them to achieve their full potential.</p>
@@ -42,7 +43,7 @@ const HomePage = () => {
         </div>
         <p className="home-subtext">Ready to explore our courses?</p>
         <div className="button-wrapper"> 
-        <a href="/courses" className="cta-button-e" onClick={() => setShowForm(true)}>Explore Courses</a>
+        <Link to="/courses" className="cta-button-e" onClick={() => setShowForm(true)}>Explore Courses</Link>
         </div>
         {/* Future: Admission Form Component */}
         {/* {showForm && <AdmissionForm />} */}
